@@ -1,0 +1,201 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dietapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\DELL\.gradle\caches\transforms-3\e4194d73fe93b3c50d9bc6a16cde53c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\DELL\.gradle\caches\transforms-3\e4194d73fe93b3c50d9bc6a16cde53c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_storage] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+14-->[:react-native-firebase_storage] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-firebase_storage] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+15-->[:react-native-firebase_storage] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
+16
+17    <application
+17-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:6:5-25:19
+18        android:name="com.dietapp.MainApplication"
+18-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:7:7-38
+19        android:allowBackup="false"
+19-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:11:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] C:\Users\DELL\.gradle\caches\transforms-3\8fcb66759c7e5a40fc028cb8d6aa1769\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:9:7-41
+23        android:label="@string/app_name"
+23-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:8:7-39
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:10:7-52
+25        android:theme="@style/AppTheme"
+25-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:12:7-38
+26        android:usesCleartextTraffic="true" >
+26-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\debug\AndroidManifest.xml:8:9-44
+27        <activity
+27-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\debug\AndroidManifest.xml:11:9-111
+28            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+28-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\debug\AndroidManifest.xml:11:19-83
+29            android:exported="false" />
+29-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\debug\AndroidManifest.xml:11:84-108
+30        <activity
+30-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:13:7-24:18
+31            android:name="com.dietapp.MainActivity"
+31-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:14:9-37
+32            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+32-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:16:9-118
+33            android:exported="true"
+33-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:19:9-32
+34            android:label="@string/app_name"
+34-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:15:9-41
+35            android:launchMode="singleTask"
+35-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:17:9-40
+36            android:windowSoftInputMode="adjustResize" >
+36-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:18:9-51
+37            <intent-filter>
+37-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:20:9-23:25
+38                <action android:name="android.intent.action.MAIN" />
+38-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:21:13-65
+38-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:21:21-62
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:22:13-73
+40-->E:\PROYECTOS\MODULO6\dietapp\android\app\src\main\AndroidManifest.xml:22:23-70
+41            </intent-filter>
+42        </activity>
+43
+44        <meta-data
+44-->[:react-native-firebase_app] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-13:36
+45            android:name="app_data_collection_default_enabled"
+45-->[:react-native-firebase_app] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-63
+46            android:value="true" />
+46-->[:react-native-firebase_app] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-33
+47
+48        <service
+48-->[:react-native-firebase_app] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-23:19
+49            android:name="com.google.firebase.components.ComponentDiscoveryService"
+49-->[:react-native-firebase_app] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-84
+50            android:directBootAware="true"
+50-->[:react-native-firebase_app] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-43
+51            android:exported="false" >
+51-->[:react-native-firebase_app] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+52            <meta-data
+52-->[:react-native-firebase_app] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:85
+53                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+53-->[:react-native-firebase_app] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-120
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[:react-native-firebase_app] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-82
+55            <meta-data
+55-->[com.google.firebase:firebase-firestore:24.2.2] C:\Users\DELL\.gradle\caches\transforms-3\8297bed0192666389e5f2bd6fe078390\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:20:13-22:85
+56                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+56-->[com.google.firebase:firebase-firestore:24.2.2] C:\Users\DELL\.gradle\caches\transforms-3\8297bed0192666389e5f2bd6fe078390\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:21:17-111
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.firebase:firebase-firestore:24.2.2] C:\Users\DELL\.gradle\caches\transforms-3\8297bed0192666389e5f2bd6fe078390\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:22:17-82
+58            <meta-data
+58-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\DELL\.gradle\caches\transforms-3\06083a8da64d553e69b8c9e4e6531d67\transformed\jetified-firebase-storage-20.0.1\AndroidManifest.xml:33:13-35:85
+59                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+59-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\DELL\.gradle\caches\transforms-3\06083a8da64d553e69b8c9e4e6531d67\transformed\jetified-firebase-storage-20.0.1\AndroidManifest.xml:34:17-107
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\DELL\.gradle\caches\transforms-3\06083a8da64d553e69b8c9e4e6531d67\transformed\jetified-firebase-storage-20.0.1\AndroidManifest.xml:35:17-82
+61        </service>
+62
+63        <provider
+63-->[:react-native-firebase_app] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-29:38
+64            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+64-->[:react-native-firebase_app] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-88
+65            android:authorities="com.dietapp.reactnativefirebaseappinitprovider"
+65-->[:react-native-firebase_app] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-86
+66            android:exported="false"
+66-->[:react-native-firebase_app] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
+67            android:initOrder="99" />
+67-->[:react-native-firebase_app] E:\PROYECTOS\MODULO6\dietapp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-35
+68
+69        <activity
+69-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DELL\.gradle\caches\transforms-3\e437a49236ed47a86bb3dcbd72c1e2e4\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:23:9-27:75
+70            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+70-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DELL\.gradle\caches\transforms-3\e437a49236ed47a86bb3dcbd72c1e2e4\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:24:13-93
+71            android:excludeFromRecents="true"
+71-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DELL\.gradle\caches\transforms-3\e437a49236ed47a86bb3dcbd72c1e2e4\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:25:13-46
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DELL\.gradle\caches\transforms-3\e437a49236ed47a86bb3dcbd72c1e2e4\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:26:13-37
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DELL\.gradle\caches\transforms-3\e437a49236ed47a86bb3dcbd72c1e2e4\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:27:13-72
+74        <!--
+75            Service handling Google Sign-In user revocation. For apps that do not integrate with
+76            Google Sign-In, this service will never be started.
+77        -->
+78        <service
+78-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DELL\.gradle\caches\transforms-3\e437a49236ed47a86bb3dcbd72c1e2e4\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:33:9-37:51
+79            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+79-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DELL\.gradle\caches\transforms-3\e437a49236ed47a86bb3dcbd72c1e2e4\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:34:13-89
+80            android:exported="true"
+80-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DELL\.gradle\caches\transforms-3\e437a49236ed47a86bb3dcbd72c1e2e4\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:35:13-36
+81            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+81-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DELL\.gradle\caches\transforms-3\e437a49236ed47a86bb3dcbd72c1e2e4\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:36:13-107
+82            android:visibleToInstantApps="true" />
+82-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\DELL\.gradle\caches\transforms-3\e437a49236ed47a86bb3dcbd72c1e2e4\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:37:13-48
+83
+84        <activity
+84-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\017cfa72b29c7957996c27121aa0ef5f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+85-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\017cfa72b29c7957996c27121aa0ef5f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\017cfa72b29c7957996c27121aa0ef5f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\017cfa72b29c7957996c27121aa0ef5f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+88
+89        <provider
+89-->[com.google.firebase:firebase-common:20.1.1] C:\Users\DELL\.gradle\caches\transforms-3\9bb4240f628e92b4badf9c4f0e70106f\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+90            android:name="com.google.firebase.provider.FirebaseInitProvider"
+90-->[com.google.firebase:firebase-common:20.1.1] C:\Users\DELL\.gradle\caches\transforms-3\9bb4240f628e92b4badf9c4f0e70106f\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+91            android:authorities="com.dietapp.firebaseinitprovider"
+91-->[com.google.firebase:firebase-common:20.1.1] C:\Users\DELL\.gradle\caches\transforms-3\9bb4240f628e92b4badf9c4f0e70106f\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+92            android:directBootAware="true"
+92-->[com.google.firebase:firebase-common:20.1.1] C:\Users\DELL\.gradle\caches\transforms-3\9bb4240f628e92b4badf9c4f0e70106f\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+93            android:exported="false"
+93-->[com.google.firebase:firebase-common:20.1.1] C:\Users\DELL\.gradle\caches\transforms-3\9bb4240f628e92b4badf9c4f0e70106f\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+94            android:initOrder="100" />
+94-->[com.google.firebase:firebase-common:20.1.1] C:\Users\DELL\.gradle\caches\transforms-3\9bb4240f628e92b4badf9c4f0e70106f\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+95
+96        <meta-data
+96-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DELL\.gradle\caches\transforms-3\b8f02b3def6a94f03189176f5af1cb9c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+97            android:name="com.google.android.gms.version"
+97-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DELL\.gradle\caches\transforms-3\b8f02b3def6a94f03189176f5af1cb9c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+98            android:value="@integer/google_play_services_version" />
+98-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DELL\.gradle\caches\transforms-3\b8f02b3def6a94f03189176f5af1cb9c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+99
+100        <provider
+100-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\510a893a5a713c473ecfd7630813f5e9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+101            android:name="androidx.startup.InitializationProvider"
+101-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\510a893a5a713c473ecfd7630813f5e9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+102            android:authorities="com.dietapp.androidx-startup"
+102-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\510a893a5a713c473ecfd7630813f5e9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+103            android:exported="false" >
+103-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\510a893a5a713c473ecfd7630813f5e9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+104            <meta-data
+104-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\510a893a5a713c473ecfd7630813f5e9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+105                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+105-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\510a893a5a713c473ecfd7630813f5e9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+106                android:value="androidx.startup" />
+106-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\510a893a5a713c473ecfd7630813f5e9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+107            <meta-data
+107-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\11c24c860b3700f7a63323b5487087ad\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+108                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+108-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\11c24c860b3700f7a63323b5487087ad\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+109                android:value="androidx.startup" />
+109-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\11c24c860b3700f7a63323b5487087ad\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+110        </provider>
+111    </application>
+112
+113</manifest>
